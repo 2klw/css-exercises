@@ -1,9 +1,8 @@
 #four {
   background-color: hsl(120, 73%, 75%);
-  font-size: 24px;
   font-weight: 700;
 }
-.three {
+.font-size {
   font-size: 24px;
 }
 .odd {
