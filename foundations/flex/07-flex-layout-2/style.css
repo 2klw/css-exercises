@@ -35,6 +35,7 @@ body {
 
 .card {
   width: 300px;
+  padding: 16px;
 }
 
 .card-wrapper {
@@ -50,7 +51,37 @@ body {
   flex: auto;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
 .sidebar {
   flex: 0;
   min-width: 300px;
+  padding: 16px;
+}
+
+.sidebar a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
